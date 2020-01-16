@@ -1,0 +1,88 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* navbar */
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  w
+}
+
+header{
+    display: inline;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400px;
+  text-decoration: none;
+  color: white;
+}
+
+/* article kanan kiri */
+article{
+    float: left;
+    width: 75%;
+    margin-right: 20px;
+    overflow: auto;
+}
+.main{
+    float: right;
+    width: 25%;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+  text-align: center;
+  background: #00a2c6;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1000px){
+    article {
+        width: 100%;
+        margin: 0;
+    }
+}
